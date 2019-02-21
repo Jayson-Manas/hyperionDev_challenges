@@ -1,0 +1,9 @@
+.calButtons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.calButtons .twoCols{
+    grid-column: 1/3;
+}
