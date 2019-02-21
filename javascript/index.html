@@ -9,10 +9,10 @@
 </head>
 <body>
 
-    <div class="calculator">
+    <div style="display:none" id="calculator">
         <div id="display"></div>
         <div class="calButtons">
-            <button >AC</button>
+            <button onclick="clearAll()">AC</button>
             <button>+/-</button>
             <button>%</button>
             <button onclick="opt(2)">/</button>
@@ -34,7 +34,7 @@
             
         </div>
     </div>
-    <button id="hide">hide/show</button>
+    <button  onclick="openClose()" id="hide">hide/show</button>
     <script src="index.js"></script>
 </body>
 </html>
