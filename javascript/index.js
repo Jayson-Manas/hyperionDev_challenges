@@ -23,7 +23,7 @@ function opt(y){
 // evaluating values 
 function operation(){
     screen.innerHTML=eval(screen.innerHTML);
-    console.log("pushed")
+    console.log("equal to sign pushed")
 }
 
 // hide or show calculator
