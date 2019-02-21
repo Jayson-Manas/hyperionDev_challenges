@@ -10,31 +10,31 @@
 <body>
 
     <div class="calculator">
-        <div class="display"></div>
+        <div id="display"></div>
         <div class="calButtons">
-            <button>AC</button>
+            <button >AC</button>
             <button>+/-</button>
             <button>%</button>
-            <button>/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>=</button>
-            <button class="twoCols">0</button>
-            <button>,</button>
-            <button>=</button>
+            <button onclick="opt(2)">/</button>
+            <button class="num" onclick="number(7)">7</button>
+            <button class="num" onclick="number(8)">8</button>
+            <button class="num" onclick="number(9)">9</button>
+            <button onclick="opt(3)">*</button>
+            <button class="num" onclick="number(4)">4</button>
+            <button class="num" onclick="number(5)">5</button>
+            <button class="num" onclick="number(6)">6</button>
+            <button onclick="opt(1)">-</button>
+            <button class="num" onclick="number(1)">1</button>
+            <button class="num" onclick="number(2)">2</button>
+            <button class="num" onclick="number(3)">3</button>
+            <button onclick="opt(0)">+</button>
+            <button class="twoCols"onclick="number(0)">0</button>
+            <button onclick="opt(5)">.</button>
+            <button onclick="operation()">=</button>
             
         </div>
     </div>
-    
+    <button id="hide">hide/show</button>
     <script src="index.js"></script>
 </body>
 </html>
