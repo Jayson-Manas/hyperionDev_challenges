@@ -37,7 +37,7 @@ function openClose(){
         counter++;
     }
 
-    console.log(counter);
+    console.log("counter ="+counter);
 }
 
 // clear screen
